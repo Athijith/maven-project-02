@@ -27,7 +27,12 @@
     <version>6.1.4.Final</version>
     <type>pom</type>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>5.6.11.Final</version>
+</dependency>
   </dependencies>
   <build>
     <finalName>01-maven.</finalName>
